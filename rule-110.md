@@ -12,7 +12,7 @@ A CA starts with a random row of bits. We will represent 1
 bits with `*` and 0 bits with `.`. Our starting row will
 specifically be this 8-bit position for now.
 
-    *.*.**..
+    *.*..*..
 
 To produce the next row, take bits three at a time,
 "wrapping around" if a boundary is hit (row 7 is next to row
